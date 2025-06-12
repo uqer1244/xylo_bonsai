@@ -1,0 +1,292 @@
+(footprint "Battery_pads_reversible"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "BT1"
+		(at 0 0.5 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8a70f7a2-410c-49ef-b503-8b1e1540fd24")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Battery"
+		(at 0 -0.5 180)
+		(layer "F.Fab")
+		(uuid "179297eb-b0e7-45fd-a287-ed66c1d54369")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b0df2cd0-58f8-4078-ad24-f9a17b3308c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d80bd00-e596-459e-9c5a-8414f3738e2e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_poly
+		(pts
+			(xy -0.401442 -1) (xy -0.401442 1) (xy -1.801442 1) (xy -1.801442 -1)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "1b0c61af-cc3e-46ca-aa69-31b8c967923a")
+	)
+	(fp_poly
+		(pts
+			(xy 1.8 -1) (xy 1.8 1) (xy 0.4 1) (xy 0.4 -1)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "df436811-5448-4d74-95f6-1097f73f4bc0")
+	)
+	(fp_poly
+		(pts
+			(xy -1.8 -1) (xy -1.8 1) (xy -0.4 1) (xy -0.4 -1)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "f6ec60a3-47bc-4bd1-893a-6f44519f2029")
+	)
+	(fp_poly
+		(pts
+			(xy 0.4 -1) (xy 0.4 1) (xy 1.8 1) (xy 1.8 -1)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "f4b32910-59d1-4ac8-b6d8-f76d91c42430")
+	)
+	(fp_text user "+ve"
+		(at -1.22 1.78 180)
+		(layer "F.SilkS")
+		(uuid "57a7ec81-1d30-46e2-bdf8-8320b9665495")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.08)
+			)
+		)
+	)
+	(fp_text user "Battery"
+		(at 0 3 180)
+		(layer "F.SilkS")
+		(uuid "e99c92ed-a3d1-4b5e-9be9-ad8c1c3e2068")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "-ve"
+		(at 1.18 1.757 180)
+		(layer "F.SilkS")
+		(uuid "ea715aef-f1f5-4c34-b781-7c4bc7bf5f7a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.08)
+			)
+		)
+	)
+	(fp_text user "Battery"
+		(at 0 3 180)
+		(layer "B.SilkS")
+		(uuid "513b2db0-9710-4097-a0f2-0f7bcbd744da")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "+ve"
+		(at -1.22 1.78 180)
+		(layer "B.SilkS")
+		(uuid "5adfa564-011e-4a12-8859-deffc2a0e089")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.08)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "-ve"
+		(at 1.18 1.757 180)
+		(layer "B.SilkS")
+		(uuid "9bcdf208-1564-4af5-8793-0e35a4535094")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.08)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "BT01"
+		(at 0 0.5 180)
+		(layer "B.SilkS")
+		(hide yes)
+		(uuid "a604ae35-b06b-4368-b391-8e7748239875")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "Battery_Cell"
+		(at 0 -0.5 180)
+		(layer "B.Fab")
+		(uuid "bb35b6f4-f889-4c91-9643-dbc5a3a7ee65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -1.1004 -1.3416)
+		(size 0.55 0.55)
+		(drill 0.3048)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "8fbf199b-4bae-4530-81cf-896547a47397")
+	)
+	(pad "1" smd custom
+		(at -1.1 0 180)
+		(size 1.5 2.1)
+		(layers "F.Cu")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.179 1.3352) (xy -0.1766 1.3352) (xy -0.1766 0.762) (xy 0.179 0.762)
+				)
+				(width 0.1)
+				(fill yes)
+			)
+		)
+		(uuid "b5b05746-26ad-4dc4-b183-73aa5bdbd63d")
+	)
+	(pad "1" smd custom
+		(at -1.1 0)
+		(size 1.5 2.1)
+		(layers "B.Cu")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.176556 -0.7618) (xy -0.179044 -0.7618) (xy -0.179044 -1.335) (xy 0.176556 -1.335)
+				)
+				(width 0.1)
+				(fill yes)
+			)
+		)
+		(uuid "5f21fc78-ad68-4ef9-a873-535414eb2a02")
+	)
+	(pad "2" thru_hole circle
+		(at 1.1 -1.3416)
+		(size 0.55 0.55)
+		(drill 0.3048)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "ebc6fafa-5b44-4698-8b90-2cfa109a2dea")
+	)
+	(pad "2" smd custom
+		(at 1.1 0 180)
+		(size 1.5 2.1)
+		(layers "F.Cu")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.1786 1.3352) (xy -0.177 1.3352) (xy -0.177 0.762) (xy 0.1786 0.762)
+				)
+				(width 0.1)
+				(fill yes)
+			)
+		)
+		(uuid "7046e25f-98e9-4287-9abc-499cc9051860")
+	)
+	(pad "2" smd custom
+		(at 1.1 0)
+		(size 1.5 2.1)
+		(layers "B.Cu")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.1766 -0.7618) (xy -0.179 -0.7618) (xy -0.179 -1.335) (xy 0.1766 -1.335)
+				)
+				(width 0.1)
+				(fill yes)
+			)
+		)
+		(uuid "f658a410-38ec-46ee-9795-8cfd8058da47")
+	)
+	(embedded_fonts no)
+)
